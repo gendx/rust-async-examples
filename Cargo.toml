@@ -1,0 +1,15 @@
+[package]
+name = "async-examples"
+version = "0.1.0"
+authors = ["G. Endignoux <ggendx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.3.13"
+lazy_static = "1.4.0"
+rand = "0.8.3"
+tokio = { version = "1.4.0", features = ["macros", "rt-multi-thread", "time"] }
+
+# To plot the results
+plotters = "0.3.0"
+regex = "1"
