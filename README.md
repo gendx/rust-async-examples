@@ -4,7 +4,7 @@ This repository contains examples of `async` programming in Rust, with the [toki
 They show how to compose [streams](https://docs.rs/futures/0.3.13/futures/stream/trait.Stream.html), in particular buffering and cancellation, to illustrate the following series of blog posts.
 
 - [Asynchronous streams in Rust (part 1) - Futures, buffering and mysterious compilation error messages](https://gendignoux.com/blog/2021/04/01/rust-async-streams-futures-part1.html)
-- *To appear soon: Calcelling expired requests*
+- [Asynchronous streams in Rust (part 2) - Cancelling expired requests](https://gendignoux.com/blog/2021/04/08/rust-async-streams-futures-part2.html)
 
 You can run each example with `cargo run --example <example name>`, and I've tested them with Rust 1.50.0.
 
